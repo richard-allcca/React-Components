@@ -1,0 +1,10 @@
+.btn-component {
+	background-color: var(--bs-primary);
+}
+.btn-component:hover,
+.btn-outline:hover {
+	font-weight: bold;
+	color: var(--bs-primary);
+	background-color: transparent;
+	border-color: var(--bs-primary);
+}

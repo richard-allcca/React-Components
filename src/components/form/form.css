@@ -1,0 +1,66 @@
+.container-form {
+   width: 30vw;
+   display: flex;
+   flex-direction: column;
+   grid-gap: 1em;
+   border: 1px solid hsla(0, 0%, 84%, 1);
+}
+
+h2 {
+   text-align: left;
+   margin-left: 2em;
+   color: hsla(0, 0%, 40%, 1);
+}
+
+label {
+   font-size: 1.2em;
+   font-weight: bold;
+   color: hsl(0, 0%, 44%);
+   cursor: pointer;
+   text-align: left;
+   padding-left: 2.8em;
+}
+
+input {
+   margin: 0 3rem .5rem 3rem;
+   padding: .3em;
+   border: none;
+   border-bottom: 1px solid hsla(0, 0%, 84%, 1);
+   background-color: transparent;
+   font-size: 1.2em;
+   font-weight: bold;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.content-buttons {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   grid-gap: 1em;
+   padding: 1.4em .5em;
+   margin-top: .5rem;
+   border: 1px solid hsla(0, 0%, 84%, 1);
+   background-color: hsla(0, 0%, 84%, 1);
+}
+
+.btn-save {
+   margin-right: .5rem;
+   background-color: var(--bs-teal-alpha);
+}
+
+.btn-cancel {
+   outline: 0.5rem solid transparent;
+   background-color: var(--bs-danger-alpha);
+}
+
+.btn-save:hover {
+   color: var(--bs-teal);
+   background-color: transparent;
+   box-shadow: 0 0 0 0.10rem var(--bs-teal);
+}
+
+.btn-cancel:hover {
+   color: var(--bs-danger);
+   background-color: transparent;
+   box-shadow: 0 0 0 0.10rem var(--bs-danger);
+}
